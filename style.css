@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+label {
+    font-size: larger;
+    text-align: left;
+    padding-top: 1rem;
+    font-weight: 800;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    padding: 1rem;
+    background-color: #65a30d;
+    border: 0px soldi #65a30d;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+#date-of-birth {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+#lucky-number {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem 0.4rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+#check-button {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    font-weight: 700;
+}
